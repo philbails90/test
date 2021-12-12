@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background: white;
+}
+
+p {
+	font-size: 0.75rem;
+}
+
+h5 {
+	font-size: 0.65rem;
+	color: darkgrey;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 1.2rem;
+	margin: 1rem 0;
+	font-weight: 300;
+}
+
+h3:hover {
+	color: fuchsia;
+}
+
+h4{
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	font-weight: 300;
+}
+
+h4:hover {
+	color: fuchsia;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.icon {
+	width: 100%;
+	height: auto;
+}
+
+.logo {
+	width: 15%;
+}
+
+.strapline {
+	width:  20%;
+}
+
+.searchbar {
+	width:  30%;
+	text-align: center;
+	position: relative;
+}
+
+.searchbar:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: 0.6rem;
+	background: darkgrey;
+}
+
+.headdiv {
+	padding: 1rem;
+	position: relative;
+}
+
+#logo {
+	width: 100%;
+	height: auto;
+}
+
+.categories {
+	width:  15%;
+	text-align: right;
+	position: relative;
+}
+
+.icons {
+	display: flex;
+	width:  20%;
+}
+
+.iconcontainer {
+	width: 33%;
+	padding: 0 1rem;
+	position: relative;
+}
+
+.closed {
+	position: absolute;
+	left: 1rem;
+	top: 2rem;
+	padding-left: 0;
+	text-decoration: none;
+	list-style: none;
+	background: fuchsia;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: all ease-in-out 250ms;
+	width: 300%;
+	color: fuchsia;
+}
+
+.open {
+	position: absolute;
+	left: 1rem;
+	top: 2rem;
+	padding-left: 0;
+	text-decoration: none;
+	list-style: none;
+	background: fuchsia;
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: all ease-in-out 250ms;
+	width: 300%;
+	color: white;
+
+}
+
+
+
+li {
+	padding: 1rem;
+	font-size: 0.9rem;
+}
+
+.categories {
+	text-align: right;
+}
+
+.maingrid {
+	display: flex;
+}
+
+.colcol {
+	width: 40%;
+	padding: 1rem;
+}
+
+.main {
+	position: sticky;
+	top: 2rem;
+}
+
+.col {
+	width: 20%;
+	padding: 1rem;
+}
+
+.articleimg {
+	width: 100%;
+	object-fit: cover;
+}
+
+footer {
+	background: dimgray;
+	width: 100%;
+	height: 50vh;
+	margin: 0;
+	padding: 3rem 0;
+}
